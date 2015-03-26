@@ -1,12 +1,5 @@
 package nyc.c4q.jorgereina1986;
 
-/**
- * Created by sufeizhao on 3/14/15.
- * Access Code 2.1
- * Fibonacci.java
- * The Fibonacci Sequence is the series of numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
- * Write a program which accepts as input an integer N and returns the N-th Fibonacci number.
- */
 
 import java.text.DecimalFormat;
 import java.util.InputMismatchException;

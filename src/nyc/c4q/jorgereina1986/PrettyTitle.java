@@ -12,7 +12,7 @@ public class PrettyTitle {
         Scanner input = new Scanner(System.in);
         String sentence;
 
-        System.out.print("Enter a sentence that will be transformed into a title case: ");
+        System.out.print("Enter a title: ");
         sentence = input.nextLine();
         System.out.println();
 
