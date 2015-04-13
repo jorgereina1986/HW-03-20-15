@@ -20,7 +20,7 @@ public class PrettyTitle {
     }
 
 
-    public static void printTitle(String title, char character){
+    public static void printTitle(String title, char underline){
         //Goes through the sentence and capitalizes the first letter in each word.
         String [] word;
         word = title.split(" ");
@@ -40,11 +40,13 @@ public class PrettyTitle {
 
         //For loop goes through the string and prints the character if it isn't a space.
         for(int i = 0; i < title.length(); i++){
+            //will leave space blank
             if(title.charAt(i) == ' ') {
                 System.out.print(" ");
             }
+            //will underline everything else
             else{
-                System.out.print(character);
+                System.out.print(underline);
             }
 
         }

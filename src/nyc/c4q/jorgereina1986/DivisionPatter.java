@@ -1,5 +1,8 @@
 package nyc.c4q.jorgereina1986;
 
+/**
+ * Created by Jorge Reina on 4/3/15.
+ */
 
 public class DivisionPatter {
 
